@@ -1,0 +1,356 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Roboto Condensed;
+	background: lightgrey;
+}
+
+.navbar{
+	text-align: center;
+	padding-top: 20px;
+	background: black;
+	padding-bottom: 20px;
+	height: 50px;
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	margin-left: 40px;
+}
+
+.pages {
+	padding-top: 10px;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.pages a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	padding-left: 60px;
+}
+
+.pages a:hover{
+	color: blue;
+}
+
+.pages .home{
+	color: red;
+}
+
+.pages .login{
+	color: red;
+}
+
+.pages .contact{
+	color: red;
+}
+
+.navbar .search{
+	color: white;
+	/*float: right;*/
+}
+
+.search{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+.search i:hover{
+	color: blue;
+	transition-duration: 2s;
+}
+
+.search input{
+	border-radius: 20px;
+}
+
+.search i{
+	color: white;
+	margin-right: 30px;
+	padding-left: 10px;
+}
+
+.topic{
+	text-align: center;
+	padding-top: 20px;
+	text-decoration: underline;
+	color: darkred;
+}
+
+.content{
+	display: flex;
+}
+
+.content img{
+	padding-left: 20px;
+	padding-top: 30px;
+}
+
+.content p{
+	padding-left: 20px;
+	padding-top: 30px;
+	text-align: justify;
+	padding-right: 20px;
+}
+
+.hospitalinfo{
+	padding-top: 80px;
+	text-align: center;
+}
+
+.hospitalinfo h2{
+	color: darkgreen;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+.hospitals{
+	display: flex;
+	justify-content: space-around;
+	margin-left: 0px;
+	margin-top: 60px;
+	margin-right: 10px;
+}
+
+.hospital{
+	background: white;
+	width: 33.33%;
+	padding-left: 20px;
+	border: 2px solid;
+	margin-left: 20px;
+	width: 15%;
+}
+
+.hospital button:hover{
+	background-color: blue;
+	color: black;
+}
+
+.hospital img:hover{
+	transform: scale(1.2);
+	z-index: 2;
+	transition: 1s;
+}
+
+.hospital img{
+	padding-top: 20px;
+}
+
+.hospital h3{
+	padding-left: 40px;
+	color: darkblue;
+}
+
+.hospital button{
+	margin-left: 55px;
+	margin-top: 10px;
+	padding: 5px 5px 5px 5px;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	color: darkred;
+	margin-bottom: 20px;
+	background: darkred;
+	color: white;
+}
+
+
+/*Contact Page*/
+.maincontact{
+	display: flex;
+	justify-content: center;
+}
+
+.contactcontent{
+	margin-top: 80px;
+}
+
+.contactus{
+	border: 5px solid;
+	margin-top: 80px;
+	padding-left: 30px;
+	margin-bottom: 4px;
+	padding-right: 30px;
+}
+
+.contactus h2{
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.contactus input{
+	margin-top: 20px;
+}
+
+.contactus .email{
+	margin-left: 30px;
+}
+
+.contactus textarea{
+	margin-top: 20px;
+}
+
+.contactus button{
+	padding: 5px 10px 5px 10px;
+	margin-top: 25px;
+	margin-left: 150px;
+	font-family: Roboto Condensed;
+	font-weight: bold;
+	color: white;
+	background: black;
+}
+
+
+/*Login Page\*/
+.bgimage{
+	background-image: url('https://www.nicepng.com/png/full/26-266973_image-page-transparent-background-oasis-skin-1-png.png');
+	height: 100vh;
+	width: 100vw;
+}
+
+.loginform{
+	text-align: center;
+	padding-top: 300px;
+}
+
+.loginform p{
+	color: white;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.loginform input{
+	border-radius: 20px;
+	margin-left: 10px;
+	display: inline;
+	height: 25px;
+	width: 250px;
+}
+
+.loginform h5{
+	font-size: 15px;
+	color: white;
+}
+
+.remember input{
+	display: block;
+}
+
+.loginform button{
+	margin-top: 20px;
+	padding: 7px 50px 7px 50px;
+	border-radius: 20px;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Roboto Condensed;
+}
+
+.footer{
+	background: black;
+	margin-top: 100px;
+	height: 140px;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer i:hover{
+	color: blue;
+}
+
+.footer h2:hover{
+	color: blue;
+	transition-duration: 5s;
+}
+
+.footer p:hover{
+	color: blue;
+}
+
+.leftfooter{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.leftfooter h3 {
+	color: white;
+	padding-top: 20px;
+}
+
+.leftfooter i{
+	color: white;
+	padding-left: 7px;
+	padding-top: 5px;
+}
+
+.midfooter{
+	color: white;
+	margin-top: 40px;
+}
+
+.midfooter h2{
+	font-size: 20px;
+}
+
+.rightfooter{
+	color: white;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+@media only screen and (max-width: 724px){
+	.navbar{
+		display: block;
+		justify-content: center;
+		flex-direction: column;
+		height: 120px;
+		width: 724px;
+	}
+
+	.pages a{
+		display: block;
+		flex-direction: column;
+	}
+
+	.content {
+		display: block;
+		flex-direction: column;
+	}
+
+	.content img{
+		width: 724px;
+	}
+
+	.content p{
+		width: 724px;
+	}
+
+	.hospitals{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hospital{
+		width: 300px;
+		margin-top: 20px;
+	}
+
+	.topic{
+		display: flex;
+		justify-content: center;
+	}
+
+	.footer{
+		width: 724px;
+	}
+}
